@@ -1,0 +1,57 @@
+{
+  "api/Resultify.Core.Abstractions.BaseResult.html": {
+    "href": "api/Resultify.Core.Abstractions.BaseResult.html",
+    "title": "Class BaseResult | Resultify",
+    "summary": "Class BaseResult Namespace Resultify.Core.Abstractions Assembly Resultify.Core.dll public abstract class BaseResult Inheritance object BaseResult Derived Result Result<T> Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors BaseResult(bool, Error) protected BaseResult(bool isSuccess, Error error) Parameters isSuccess bool error Error Properties Error public Error Error { get; } Property Value Error IsFailure public bool IsFailure { get; } Property Value bool IsSuccess public bool IsSuccess { get; } Property Value bool"
+  },
+  "api/Resultify.Core.Abstractions.html": {
+    "href": "api/Resultify.Core.Abstractions.html",
+    "title": "Namespace Resultify.Core.Abstractions | Resultify",
+    "summary": "Namespace Resultify.Core.Abstractions Classes BaseResult"
+  },
+  "api/Resultify.Core.Models.Result-1.html": {
+    "href": "api/Resultify.Core.Models.Result-1.html",
+    "title": "Class Result<T> | Resultify",
+    "summary": "Class Result<T> Namespace Resultify.Core.Models Assembly Resultify.Core.dll public sealed class Result<T> : BaseResult Type Parameters T Inheritance object BaseResult Result<T> Inherited Members BaseResult.IsSuccess BaseResult.IsFailure BaseResult.Error object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Properties Value public T? Value { get; } Property Value T Methods Bind<TResult>(Func<T?, Result<TResult>>) public Result<TResult> Bind<TResult>(Func<T?, Result<TResult>> func) Parameters func Func<T, Result<TResult>> Returns Result<TResult> Type Parameters TResult Failure(Error) public static Result<T> Failure(Error error) Parameters error Error Returns Result<T> Map(Action<T?>) public Result<T> Map(Action<T?> action) Parameters action Action<T> Returns Result<T> Map<TResult>(Func<T?, TResult>) public Result<TResult> Map<TResult>(Func<T?, TResult> func) Parameters func Func<T, TResult> Returns Result<TResult> Type Parameters TResult Match(Action<T?>, Action<Error>) public void Match(Action<T?> onSuccess, Action<Error> onFailure) Parameters onSuccess Action<T> onFailure Action<Error> Match<TResult>(Func<T?, TResult>, Func<Error, TResult>) public TResult Match<TResult>(Func<T?, TResult> onSuccess, Func<Error, TResult> onFailure) Parameters onSuccess Func<T, TResult> onFailure Func<Error, TResult> Returns TResult Type Parameters TResult Success(T) public static Result<T> Success(T value) Parameters value T Returns Result<T> Try(Func<T>) public static Result<T> Try(Func<T> func) Parameters func Func<T> Returns Result<T>"
+  },
+  "api/Resultify.Core.Models.Result.html": {
+    "href": "api/Resultify.Core.Models.Result.html",
+    "title": "Class Result | Resultify",
+    "summary": "Class Result Namespace Resultify.Core.Models Assembly Resultify.Core.dll public sealed class Result : BaseResult Inheritance object BaseResult Result Inherited Members BaseResult.IsSuccess BaseResult.IsFailure BaseResult.Error object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Methods Bind(Func<Result>) public Result Bind(Func<Result> func) Parameters func Func<Result> Returns Result Failure(Error) public static Result Failure(Error error) Parameters error Error Returns Result Map(Func<Result>) public Result Map(Func<Result> func) Parameters func Func<Result> Returns Result Map<T>(Func<T>) public Result<T> Map<T>(Func<T> func) Parameters func Func<T> Returns Result<T> Type Parameters T Match(Action, Action<Error>) public void Match(Action onSuccess, Action<Error> onFailure) Parameters onSuccess Action onFailure Action<Error> Match<TResult>(Func<TResult>, Func<Error, TResult>) public TResult Match<TResult>(Func<TResult> onSuccess, Func<Error, TResult> onFailure) Parameters onSuccess Func<TResult> onFailure Func<Error, TResult> Returns TResult Type Parameters TResult Success() public static Result Success() Returns Result Try(Action) public static Result Try(Action action) Parameters action Action Returns Result"
+  },
+  "api/Resultify.Core.Models.html": {
+    "href": "api/Resultify.Core.Models.html",
+    "title": "Namespace Resultify.Core.Models | Resultify",
+    "summary": "Namespace Resultify.Core.Models Classes Result Result<T>"
+  },
+  "api/Resultify.Core.ValueObjects.Error.html": {
+    "href": "api/Resultify.Core.ValueObjects.Error.html",
+    "title": "Class Error | Resultify",
+    "summary": "Class Error Namespace Resultify.Core.ValueObjects Assembly Resultify.Core.dll public sealed record Error : IEquatable<Error> Inheritance object Error Implements IEquatable<Error> Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Constructors Error(string, string?) public Error(string Code, string? Description = null) Parameters Code string Description string Fields None public static readonly Error None Field Value Error Properties Code public string Code { get; init; } Property Value string Description public string? Description { get; init; } Property Value string"
+  },
+  "api/Resultify.Core.ValueObjects.html": {
+    "href": "api/Resultify.Core.ValueObjects.html",
+    "title": "Namespace Resultify.Core.ValueObjects | Resultify",
+    "summary": "Namespace Resultify.Core.ValueObjects Classes Error"
+  },
+  "articles/getting-started.html": {
+    "href": "articles/getting-started.html",
+    "title": "Getting Started | Resultify",
+    "summary": "Getting Started This guide shows how to quickly install and use the Resultify NuGet package in your .NET project. 1. Install via NuGet You can install the package using the .NET CLI: dotnet add package Resultify --version 0.1.0 Or via Visual Studio: Right-click on your project → Manage NuGet Packages… Search for Resultify Click Install 2. Add a Using Statement In your C# code, add: using Resultify.Core.Models; using Resultify.Core.ValueObjects; 3. Example Usage Here’s a simple example of how to use the package: using Resultify.Core.Models; using Resultify.Core.ValueObjects; Result result = Result.Success(); if (result.IsSuccess) Console.WriteLine(\"result success\"); 4. Learn More Check the API reference in this documentation. Browse tutorials and examples to see how to integrate the package into real projects. If you encounter issues, refer to the FAQ or open an issue on GitHub."
+  },
+  "articles/introduction.html": {
+    "href": "articles/introduction.html",
+    "title": "Introduction | Resultify",
+    "summary": "Introduction Welcome to the Resultify documentation! Resultify is a modern, easy-to-use tool designed to lightweight, fluent, and functional-style Result library for C#.. It helps developers at returns efficiently and reliably. Features Fluent API with Try, Map, Bind, Match Non-generic and generic Result types Exception-safe operations with Result.Try Supports NuGet packaging with metadata, icon, and tags Fully chainable pipelines for functional programming style Why Use Resultify? Ease of Use: Clear API and documentation make it quick to get started. Performance: Optimized for efficiently. Extensibility: Easily customizable to fit your needs. Getting Started To start using Resultify, follow the steps in the Quick Start section on the homepage. You’ll be able to set up, run, and integrate it into your projects in minutes."
+  },
+  "articles/samples.html": {
+    "href": "articles/samples.html",
+    "title": "Samples | Resultify",
+    "summary": "Samples Sample 1 using Resultify.Core.Models; using Resultify.Core.ValueObjects; Result result = Result.Success(); if (result.IsSuccess) Console.WriteLine(\"result success\"); Sample 2 using Resultify.Core.Models; using Resultify.Core.ValueObjects; Error error = new Error(\"Error.Code\", \" error description\"); Result result = Result.Failure(error); if (result.IsFailure) Console.WriteLine($\"result failure | code: {result.Error.Code}, description: {result.Error.Description}\"); Sample 3 using Resultify.Core.Models; using Resultify.Core.ValueObjects; Result<int> result = Result<int>.Success(1); if (result.IsSuccess) Console.WriteLine($\"result success | value:{result.Value}\"); Sample 4 using Resultify.Core.Models; using Resultify.Core.ValueObjects; Error error = new Error(\"Error.Code\", \"error description\"); Result<int> result = Result<int>.Failure(error); if (result.IsFailure) Console.WriteLine($\"result failure | code: {result.Error.Code}, description: {result.Error.Description}\"); Sample 5 using Resultify.Core.Models; using Resultify.Core.ValueObjects; Result<int> .Try(() => { throw new DivideByZeroException(); }) .Match( success => Console.WriteLine($\"success: {success}\"), failure => Console.WriteLine($\"failure: {failure.Description}\") );"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "Welcome! | Resultify",
+    "summary": "Welcome! This documentation provides all the information you need for Resultify. Here you will find guides, usage instructions, and references. Open Buffet Resultify Open Buffet Resultify is a lightweight, fluent, and functional-style Result library for C#. It provides Result and Result<T> types with Try, Map, Bind, and Match operations, enabling safe error handling, fluent pipelines, and exception-free code. Features Fluent API with Try, Map, Bind, Match Non-generic and generic Result types Exception-safe operations with Result.Try Supports NuGet packaging with metadata, icon, and tags Fully chainable pipelines for functional programming style Quick Start You can install the package via NuGet: dotnet add package Resultify"
+  }
+}
