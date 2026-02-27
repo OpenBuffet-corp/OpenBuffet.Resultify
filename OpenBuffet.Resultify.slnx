@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Resultify.Core/Resultify.Core.csproj" />
+  </Folder>
+  <Folder Name="/test/">
+    <Project Path="test/Resultify.UnitTest/Resultify.UnitTest.csproj" />
+  </Folder>
+</Solution>
