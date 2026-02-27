@@ -4,14 +4,28 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+    <!-- NuGet paket bilgileri -->
+    <Authors>Ferdi KURNAZ</Authors>
+    <Company>OpenBuffet</Company>
+    <PackageId>Resultify</PackageId> <!-- Paket ismi -->
+    <Version>1.0.0</Version> <!-- Default version, workflow tag ile override edilecek -->
+    <Description>Fluent Result library</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/OpenBuffet-corp/OpenBuffet.Resultify</RepositoryUrl>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild> <!-- workflow ile pack edilecek -->
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageTags>Result,Fluent,Functional,Bind,Map,Try</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
     <Folder Include="Abstractions\" />
     <Folder Include="Enums\" />
     <Folder Include="Extensions\" />
+    <Folder Include="Helpers\" />
     <Folder Include="Models\" />
     <Folder Include="ValueObjects\" />
+    <None Include="icon.png" Pack="true" PackagePath="\" />
   </ItemGroup>
 
 </Project>
