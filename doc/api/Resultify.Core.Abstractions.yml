@@ -1,0 +1,54 @@
+### YamlMime:ManagedReference
+items:
+- uid: Resultify.Core.Abstractions
+  commentId: N:Resultify.Core.Abstractions
+  id: Resultify.Core.Abstractions
+  children:
+  - Resultify.Core.Abstractions.BaseResult
+  langs:
+  - csharp
+  - vb
+  name: Resultify.Core.Abstractions
+  nameWithType: Resultify.Core.Abstractions
+  fullName: Resultify.Core.Abstractions
+  type: Namespace
+  assemblies:
+  - Resultify.Core
+references:
+- uid: Resultify.Core.Abstractions.BaseResult
+  commentId: T:Resultify.Core.Abstractions.BaseResult
+  parent: Resultify.Core.Abstractions
+  href: Resultify.Core.Abstractions.BaseResult.html
+  name: BaseResult
+  nameWithType: BaseResult
+  fullName: Resultify.Core.Abstractions.BaseResult
+- uid: Resultify.Core.Abstractions
+  commentId: N:Resultify.Core.Abstractions
+  href: Resultify.html
+  name: Resultify.Core.Abstractions
+  nameWithType: Resultify.Core.Abstractions
+  fullName: Resultify.Core.Abstractions
+  spec.csharp:
+  - uid: Resultify
+    name: Resultify
+    href: Resultify.html
+  - name: .
+  - uid: Resultify.Core
+    name: Core
+    href: Resultify.Core.html
+  - name: .
+  - uid: Resultify.Core.Abstractions
+    name: Abstractions
+    href: Resultify.Core.Abstractions.html
+  spec.vb:
+  - uid: Resultify
+    name: Resultify
+    href: Resultify.html
+  - name: .
+  - uid: Resultify.Core
+    name: Core
+    href: Resultify.Core.html
+  - name: .
+  - uid: Resultify.Core.Abstractions
+    name: Abstractions
+    href: Resultify.Core.Abstractions.html

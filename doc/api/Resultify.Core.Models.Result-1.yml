@@ -1,0 +1,1134 @@
+### YamlMime:ManagedReference
+items:
+- uid: Resultify.Core.Models.Result`1
+  commentId: T:Resultify.Core.Models.Result`1
+  id: Result`1
+  parent: Resultify.Core.Models
+  children:
+  - Resultify.Core.Models.Result`1.Bind``1(System.Func{`0,Resultify.Core.Models.Result{``0}})
+  - Resultify.Core.Models.Result`1.Failure(Resultify.Core.ValueObjects.Error)
+  - Resultify.Core.Models.Result`1.Map(System.Action{`0})
+  - Resultify.Core.Models.Result`1.Map``1(System.Func{`0,``0})
+  - Resultify.Core.Models.Result`1.Match(System.Action{`0},System.Action{Resultify.Core.ValueObjects.Error})
+  - Resultify.Core.Models.Result`1.Match``1(System.Func{`0,``0},System.Func{Resultify.Core.ValueObjects.Error,``0})
+  - Resultify.Core.Models.Result`1.Success(`0)
+  - Resultify.Core.Models.Result`1.Try(System.Func{`0})
+  - Resultify.Core.Models.Result`1.Value
+  langs:
+  - csharp
+  - vb
+  name: Result<T>
+  nameWithType: Result<T>
+  fullName: Resultify.Core.Models.Result<T>
+  type: Class
+  source:
+    remote:
+      path: src/Resultify.Core/Models/Result.Generic.cs
+      branch: main
+      repo: https://github.com/OpenBuffet-corp/OpenBuffet.Resultify.git
+    id: Result
+    path: ../src/Resultify.Core/Models/Result.Generic.cs
+    startLine: 6
+  assemblies:
+  - Resultify.Core
+  namespace: Resultify.Core.Models
+  syntax:
+    content: 'public sealed class Result<T> : BaseResult'
+    typeParameters:
+    - id: T
+    content.vb: Public NotInheritable Class Result(Of T) Inherits BaseResult
+  inheritance:
+  - System.Object
+  - Resultify.Core.Abstractions.BaseResult
+  inheritedMembers:
+  - Resultify.Core.Abstractions.BaseResult.IsSuccess
+  - Resultify.Core.Abstractions.BaseResult.IsFailure
+  - Resultify.Core.Abstractions.BaseResult.Error
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  nameWithType.vb: Result(Of T)
+  fullName.vb: Resultify.Core.Models.Result(Of T)
+  name.vb: Result(Of T)
+- uid: Resultify.Core.Models.Result`1.Value
+  commentId: P:Resultify.Core.Models.Result`1.Value
+  id: Value
+  parent: Resultify.Core.Models.Result`1
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: Result<T>.Value
+  fullName: Resultify.Core.Models.Result<T>.Value
+  type: Property
+  source:
+    remote:
+      path: src/Resultify.Core/Models/Result.Generic.cs
+      branch: main
+      repo: https://github.com/OpenBuffet-corp/OpenBuffet.Resultify.git
+    id: Value
+    path: ../src/Resultify.Core/Models/Result.Generic.cs
+    startLine: 8
+  assemblies:
+  - Resultify.Core
+  namespace: Resultify.Core.Models
+  syntax:
+    content: public T? Value { get; }
+    parameters: []
+    return:
+      type: '{T}'
+    content.vb: Public ReadOnly Property Value As T
+  overload: Resultify.Core.Models.Result`1.Value*
+  nameWithType.vb: Result(Of T).Value
+  fullName.vb: Resultify.Core.Models.Result(Of T).Value
+- uid: Resultify.Core.Models.Result`1.Success(`0)
+  commentId: M:Resultify.Core.Models.Result`1.Success(`0)
+  id: Success(`0)
+  parent: Resultify.Core.Models.Result`1
+  langs:
+  - csharp
+  - vb
+  name: Success(T)
+  nameWithType: Result<T>.Success(T)
+  fullName: Resultify.Core.Models.Result<T>.Success(T)
+  type: Method
+  source:
+    remote:
+      path: src/Resultify.Core/Models/Result.Generic.cs
+      branch: main
+      repo: https://github.com/OpenBuffet-corp/OpenBuffet.Resultify.git
+    id: Success
+    path: ../src/Resultify.Core/Models/Result.Generic.cs
+    startLine: 14
+  assemblies:
+  - Resultify.Core
+  namespace: Resultify.Core.Models
+  syntax:
+    content: public static Result<T> Success(T value)
+    parameters:
+    - id: value
+      type: '{T}'
+    return:
+      type: Resultify.Core.Models.Result`1
+    content.vb: Public Shared Function Success(value As T) As Result(Of T)
+  overload: Resultify.Core.Models.Result`1.Success*
+  nameWithType.vb: Result(Of T).Success(T)
+  fullName.vb: Resultify.Core.Models.Result(Of T).Success(T)
+- uid: Resultify.Core.Models.Result`1.Failure(Resultify.Core.ValueObjects.Error)
+  commentId: M:Resultify.Core.Models.Result`1.Failure(Resultify.Core.ValueObjects.Error)
+  id: Failure(Resultify.Core.ValueObjects.Error)
+  parent: Resultify.Core.Models.Result`1
+  langs:
+  - csharp
+  - vb
+  name: Failure(Error)
+  nameWithType: Result<T>.Failure(Error)
+  fullName: Resultify.Core.Models.Result<T>.Failure(Resultify.Core.ValueObjects.Error)
+  type: Method
+  source:
+    remote:
+      path: src/Resultify.Core/Models/Result.Generic.cs
+      branch: main
+      repo: https://github.com/OpenBuffet-corp/OpenBuffet.Resultify.git
+    id: Failure
+    path: ../src/Resultify.Core/Models/Result.Generic.cs
+    startLine: 15
+  assemblies:
+  - Resultify.Core
+  namespace: Resultify.Core.Models
+  syntax:
+    content: public static Result<T> Failure(Error error)
+    parameters:
+    - id: error
+      type: Resultify.Core.ValueObjects.Error
+    return:
+      type: Resultify.Core.Models.Result`1
+    content.vb: Public Shared Function Failure([error] As [Error]) As Result(Of T)
+  overload: Resultify.Core.Models.Result`1.Failure*
+  nameWithType.vb: Result(Of T).Failure(Error)
+  fullName.vb: Resultify.Core.Models.Result(Of T).Failure(Resultify.Core.ValueObjects.Error)
+- uid: Resultify.Core.Models.Result`1.Match(System.Action{`0},System.Action{Resultify.Core.ValueObjects.Error})
+  commentId: M:Resultify.Core.Models.Result`1.Match(System.Action{`0},System.Action{Resultify.Core.ValueObjects.Error})
+  id: Match(System.Action{`0},System.Action{Resultify.Core.ValueObjects.Error})
+  parent: Resultify.Core.Models.Result`1
+  langs:
+  - csharp
+  - vb
+  name: Match(Action<T?>, Action<Error>)
+  nameWithType: Result<T>.Match(Action<T?>, Action<Error>)
+  fullName: Resultify.Core.Models.Result<T>.Match(System.Action<T?>, System.Action<Resultify.Core.ValueObjects.Error>)
+  type: Method
+  source:
+    remote:
+      path: src/Resultify.Core/Models/Result.Generic.cs
+      branch: main
+      repo: https://github.com/OpenBuffet-corp/OpenBuffet.Resultify.git
+    id: Match
+    path: ../src/Resultify.Core/Models/Result.Generic.cs
+    startLine: 19
+  assemblies:
+  - Resultify.Core
+  namespace: Resultify.Core.Models
+  syntax:
+    content: public void Match(Action<T?> onSuccess, Action<Error> onFailure)
+    parameters:
+    - id: onSuccess
+      type: System.Action{{T}}
+    - id: onFailure
+      type: System.Action{Resultify.Core.ValueObjects.Error}
+    content.vb: Public Sub Match(onSuccess As Action(Of T), onFailure As Action(Of [Error]))
+  overload: Resultify.Core.Models.Result`1.Match*
+  nameWithType.vb: Result(Of T).Match(Action(Of T), Action(Of Error))
+  fullName.vb: Resultify.Core.Models.Result(Of T).Match(System.Action(Of T), System.Action(Of Resultify.Core.ValueObjects.Error))
+  name.vb: Match(Action(Of T), Action(Of Error))
+- uid: Resultify.Core.Models.Result`1.Match``1(System.Func{`0,``0},System.Func{Resultify.Core.ValueObjects.Error,``0})
+  commentId: M:Resultify.Core.Models.Result`1.Match``1(System.Func{`0,``0},System.Func{Resultify.Core.ValueObjects.Error,``0})
+  id: Match``1(System.Func{`0,``0},System.Func{Resultify.Core.ValueObjects.Error,``0})
+  parent: Resultify.Core.Models.Result`1
+  langs:
+  - csharp
+  - vb
+  name: Match<TResult>(Func<T?, TResult>, Func<Error, TResult>)
+  nameWithType: Result<T>.Match<TResult>(Func<T?, TResult>, Func<Error, TResult>)
+  fullName: Resultify.Core.Models.Result<T>.Match<TResult>(System.Func<T?, TResult>, System.Func<Resultify.Core.ValueObjects.Error, TResult>)
+  type: Method
+  source:
+    remote:
+      path: src/Resultify.Core/Models/Result.Generic.cs
+      branch: main
+      repo: https://github.com/OpenBuffet-corp/OpenBuffet.Resultify.git
+    id: Match
+    path: ../src/Resultify.Core/Models/Result.Generic.cs
+    startLine: 30
+  assemblies:
+  - Resultify.Core
+  namespace: Resultify.Core.Models
+  syntax:
+    content: public TResult Match<TResult>(Func<T?, TResult> onSuccess, Func<Error, TResult> onFailure)
+    parameters:
+    - id: onSuccess
+      type: System.Func{{T},{TResult}}
+    - id: onFailure
+      type: System.Func{Resultify.Core.ValueObjects.Error,{TResult}}
+    typeParameters:
+    - id: TResult
+    return:
+      type: '{TResult}'
+    content.vb: Public Function Match(Of TResult)(onSuccess As Func(Of T, TResult), onFailure As Func(Of [Error], TResult)) As TResult
+  overload: Resultify.Core.Models.Result`1.Match*
+  nameWithType.vb: Result(Of T).Match(Of TResult)(Func(Of T, TResult), Func(Of Error, TResult))
+  fullName.vb: Resultify.Core.Models.Result(Of T).Match(Of TResult)(System.Func(Of T, TResult), System.Func(Of Resultify.Core.ValueObjects.Error, TResult))
+  name.vb: Match(Of TResult)(Func(Of T, TResult), Func(Of Error, TResult))
+- uid: Resultify.Core.Models.Result`1.Map``1(System.Func{`0,``0})
+  commentId: M:Resultify.Core.Models.Result`1.Map``1(System.Func{`0,``0})
+  id: Map``1(System.Func{`0,``0})
+  parent: Resultify.Core.Models.Result`1
+  langs:
+  - csharp
+  - vb
+  name: Map<TResult>(Func<T?, TResult>)
+  nameWithType: Result<T>.Map<TResult>(Func<T?, TResult>)
+  fullName: Resultify.Core.Models.Result<T>.Map<TResult>(System.Func<T?, TResult>)
+  type: Method
+  source:
+    remote:
+      path: src/Resultify.Core/Models/Result.Generic.cs
+      branch: main
+      repo: https://github.com/OpenBuffet-corp/OpenBuffet.Resultify.git
+    id: Map
+    path: ../src/Resultify.Core/Models/Result.Generic.cs
+    startLine: 40
+  assemblies:
+  - Resultify.Core
+  namespace: Resultify.Core.Models
+  syntax:
+    content: public Result<TResult> Map<TResult>(Func<T?, TResult> func)
+    parameters:
+    - id: func
+      type: System.Func{{T},{TResult}}
+    typeParameters:
+    - id: TResult
+    return:
+      type: Resultify.Core.Models.Result{{TResult}}
+    content.vb: Public Function Map(Of TResult)(func As Func(Of T, TResult)) As Result(Of TResult)
+  overload: Resultify.Core.Models.Result`1.Map*
+  nameWithType.vb: Result(Of T).Map(Of TResult)(Func(Of T, TResult))
+  fullName.vb: Resultify.Core.Models.Result(Of T).Map(Of TResult)(System.Func(Of T, TResult))
+  name.vb: Map(Of TResult)(Func(Of T, TResult))
+- uid: Resultify.Core.Models.Result`1.Map(System.Action{`0})
+  commentId: M:Resultify.Core.Models.Result`1.Map(System.Action{`0})
+  id: Map(System.Action{`0})
+  parent: Resultify.Core.Models.Result`1
+  langs:
+  - csharp
+  - vb
+  name: Map(Action<T?>)
+  nameWithType: Result<T>.Map(Action<T?>)
+  fullName: Resultify.Core.Models.Result<T>.Map(System.Action<T?>)
+  type: Method
+  source:
+    remote:
+      path: src/Resultify.Core/Models/Result.Generic.cs
+      branch: main
+      repo: https://github.com/OpenBuffet-corp/OpenBuffet.Resultify.git
+    id: Map
+    path: ../src/Resultify.Core/Models/Result.Generic.cs
+    startLine: 49
+  assemblies:
+  - Resultify.Core
+  namespace: Resultify.Core.Models
+  syntax:
+    content: public Result<T> Map(Action<T?> action)
+    parameters:
+    - id: action
+      type: System.Action{{T}}
+    return:
+      type: Resultify.Core.Models.Result`1
+    content.vb: Public Function Map(action As Action(Of T)) As Result(Of T)
+  overload: Resultify.Core.Models.Result`1.Map*
+  nameWithType.vb: Result(Of T).Map(Action(Of T))
+  fullName.vb: Resultify.Core.Models.Result(Of T).Map(System.Action(Of T))
+  name.vb: Map(Action(Of T))
+- uid: Resultify.Core.Models.Result`1.Bind``1(System.Func{`0,Resultify.Core.Models.Result{``0}})
+  commentId: M:Resultify.Core.Models.Result`1.Bind``1(System.Func{`0,Resultify.Core.Models.Result{``0}})
+  id: Bind``1(System.Func{`0,Resultify.Core.Models.Result{``0}})
+  parent: Resultify.Core.Models.Result`1
+  langs:
+  - csharp
+  - vb
+  name: Bind<TResult>(Func<T?, Result<TResult>>)
+  nameWithType: Result<T>.Bind<TResult>(Func<T?, Result<TResult>>)
+  fullName: Resultify.Core.Models.Result<T>.Bind<TResult>(System.Func<T?, Resultify.Core.Models.Result<TResult>>)
+  type: Method
+  source:
+    remote:
+      path: src/Resultify.Core/Models/Result.Generic.cs
+      branch: main
+      repo: https://github.com/OpenBuffet-corp/OpenBuffet.Resultify.git
+    id: Bind
+    path: ../src/Resultify.Core/Models/Result.Generic.cs
+    startLine: 59
+  assemblies:
+  - Resultify.Core
+  namespace: Resultify.Core.Models
+  syntax:
+    content: public Result<TResult> Bind<TResult>(Func<T?, Result<TResult>> func)
+    parameters:
+    - id: func
+      type: System.Func{{T},Resultify.Core.Models.Result{{TResult}}}
+    typeParameters:
+    - id: TResult
+    return:
+      type: Resultify.Core.Models.Result{{TResult}}
+    content.vb: Public Function Bind(Of TResult)(func As Func(Of T, Result(Of TResult))) As Result(Of TResult)
+  overload: Resultify.Core.Models.Result`1.Bind*
+  nameWithType.vb: Result(Of T).Bind(Of TResult)(Func(Of T, Result(Of TResult)))
+  fullName.vb: Resultify.Core.Models.Result(Of T).Bind(Of TResult)(System.Func(Of T, Resultify.Core.Models.Result(Of TResult)))
+  name.vb: Bind(Of TResult)(Func(Of T, Result(Of TResult)))
+- uid: Resultify.Core.Models.Result`1.Try(System.Func{`0})
+  commentId: M:Resultify.Core.Models.Result`1.Try(System.Func{`0})
+  id: Try(System.Func{`0})
+  parent: Resultify.Core.Models.Result`1
+  langs:
+  - csharp
+  - vb
+  name: Try(Func<T>)
+  nameWithType: Result<T>.Try(Func<T>)
+  fullName: Resultify.Core.Models.Result<T>.Try(System.Func<T>)
+  type: Method
+  source:
+    remote:
+      path: src/Resultify.Core/Models/Result.Generic.cs
+      branch: main
+      repo: https://github.com/OpenBuffet-corp/OpenBuffet.Resultify.git
+    id: Try
+    path: ../src/Resultify.Core/Models/Result.Generic.cs
+    startLine: 68
+  assemblies:
+  - Resultify.Core
+  namespace: Resultify.Core.Models
+  syntax:
+    content: public static Result<T> Try(Func<T> func)
+    parameters:
+    - id: func
+      type: System.Func{{T}}
+    return:
+      type: Resultify.Core.Models.Result`1
+    content.vb: Public Shared Function [Try](func As Func(Of T)) As Result(Of T)
+  overload: Resultify.Core.Models.Result`1.Try*
+  nameWithType.vb: Result(Of T).Try(Func(Of T))
+  fullName.vb: Resultify.Core.Models.Result(Of T).Try(System.Func(Of T))
+  name.vb: Try(Func(Of T))
+references:
+- uid: Resultify.Core.Models
+  commentId: N:Resultify.Core.Models
+  href: Resultify.html
+  name: Resultify.Core.Models
+  nameWithType: Resultify.Core.Models
+  fullName: Resultify.Core.Models
+  spec.csharp:
+  - uid: Resultify
+    name: Resultify
+    href: Resultify.html
+  - name: .
+  - uid: Resultify.Core
+    name: Core
+    href: Resultify.Core.html
+  - name: .
+  - uid: Resultify.Core.Models
+    name: Models
+    href: Resultify.Core.Models.html
+  spec.vb:
+  - uid: Resultify
+    name: Resultify
+    href: Resultify.html
+  - name: .
+  - uid: Resultify.Core
+    name: Core
+    href: Resultify.Core.html
+  - name: .
+  - uid: Resultify.Core.Models
+    name: Models
+    href: Resultify.Core.Models.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Resultify.Core.Abstractions.BaseResult
+  commentId: T:Resultify.Core.Abstractions.BaseResult
+  parent: Resultify.Core.Abstractions
+  href: Resultify.Core.Abstractions.BaseResult.html
+  name: BaseResult
+  nameWithType: BaseResult
+  fullName: Resultify.Core.Abstractions.BaseResult
+- uid: Resultify.Core.Abstractions.BaseResult.IsSuccess
+  commentId: P:Resultify.Core.Abstractions.BaseResult.IsSuccess
+  parent: Resultify.Core.Abstractions.BaseResult
+  href: Resultify.Core.Abstractions.BaseResult.html#Resultify_Core_Abstractions_BaseResult_IsSuccess
+  name: IsSuccess
+  nameWithType: BaseResult.IsSuccess
+  fullName: Resultify.Core.Abstractions.BaseResult.IsSuccess
+- uid: Resultify.Core.Abstractions.BaseResult.IsFailure
+  commentId: P:Resultify.Core.Abstractions.BaseResult.IsFailure
+  parent: Resultify.Core.Abstractions.BaseResult
+  href: Resultify.Core.Abstractions.BaseResult.html#Resultify_Core_Abstractions_BaseResult_IsFailure
+  name: IsFailure
+  nameWithType: BaseResult.IsFailure
+  fullName: Resultify.Core.Abstractions.BaseResult.IsFailure
+- uid: Resultify.Core.Abstractions.BaseResult.Error
+  commentId: P:Resultify.Core.Abstractions.BaseResult.Error
+  parent: Resultify.Core.Abstractions.BaseResult
+  href: Resultify.Core.Abstractions.BaseResult.html#Resultify_Core_Abstractions_BaseResult_Error
+  name: Error
+  nameWithType: BaseResult.Error
+  fullName: Resultify.Core.Abstractions.BaseResult.Error
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Resultify.Core.Abstractions
+  commentId: N:Resultify.Core.Abstractions
+  href: Resultify.html
+  name: Resultify.Core.Abstractions
+  nameWithType: Resultify.Core.Abstractions
+  fullName: Resultify.Core.Abstractions
+  spec.csharp:
+  - uid: Resultify
+    name: Resultify
+    href: Resultify.html
+  - name: .
+  - uid: Resultify.Core
+    name: Core
+    href: Resultify.Core.html
+  - name: .
+  - uid: Resultify.Core.Abstractions
+    name: Abstractions
+    href: Resultify.Core.Abstractions.html
+  spec.vb:
+  - uid: Resultify
+    name: Resultify
+    href: Resultify.html
+  - name: .
+  - uid: Resultify.Core
+    name: Core
+    href: Resultify.Core.html
+  - name: .
+  - uid: Resultify.Core.Abstractions
+    name: Abstractions
+    href: Resultify.Core.Abstractions.html
+- uid: Resultify.Core.Models.Result`1.Value*
+  commentId: Overload:Resultify.Core.Models.Result`1.Value
+  href: Resultify.Core.Models.Result-1.html#Resultify_Core_Models_Result_1_Value
+  name: Value
+  nameWithType: Result<T>.Value
+  fullName: Resultify.Core.Models.Result<T>.Value
+  nameWithType.vb: Result(Of T).Value
+  fullName.vb: Resultify.Core.Models.Result(Of T).Value
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Resultify.Core.Models.Result`1.Success*
+  commentId: Overload:Resultify.Core.Models.Result`1.Success
+  href: Resultify.Core.Models.Result-1.html#Resultify_Core_Models_Result_1_Success__0_
+  name: Success
+  nameWithType: Result<T>.Success
+  fullName: Resultify.Core.Models.Result<T>.Success
+  nameWithType.vb: Result(Of T).Success
+  fullName.vb: Resultify.Core.Models.Result(Of T).Success
+- uid: Resultify.Core.Models.Result`1
+  commentId: T:Resultify.Core.Models.Result`1
+  parent: Resultify.Core.Models
+  href: Resultify.Core.Models.Result-1.html
+  name: Result<T>
+  nameWithType: Result<T>
+  fullName: Resultify.Core.Models.Result<T>
+  nameWithType.vb: Result(Of T)
+  fullName.vb: Resultify.Core.Models.Result(Of T)
+  name.vb: Result(Of T)
+  spec.csharp:
+  - uid: Resultify.Core.Models.Result`1
+    name: Result
+    href: Resultify.Core.Models.Result-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Resultify.Core.Models.Result`1
+    name: Result
+    href: Resultify.Core.Models.Result-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Resultify.Core.Models.Result`1.Failure*
+  commentId: Overload:Resultify.Core.Models.Result`1.Failure
+  href: Resultify.Core.Models.Result-1.html#Resultify_Core_Models_Result_1_Failure_Resultify_Core_ValueObjects_Error_
+  name: Failure
+  nameWithType: Result<T>.Failure
+  fullName: Resultify.Core.Models.Result<T>.Failure
+  nameWithType.vb: Result(Of T).Failure
+  fullName.vb: Resultify.Core.Models.Result(Of T).Failure
+- uid: Resultify.Core.ValueObjects.Error
+  commentId: T:Resultify.Core.ValueObjects.Error
+  parent: Resultify.Core.ValueObjects
+  href: Resultify.Core.ValueObjects.Error.html
+  name: Error
+  nameWithType: Error
+  fullName: Resultify.Core.ValueObjects.Error
+- uid: Resultify.Core.ValueObjects
+  commentId: N:Resultify.Core.ValueObjects
+  href: Resultify.html
+  name: Resultify.Core.ValueObjects
+  nameWithType: Resultify.Core.ValueObjects
+  fullName: Resultify.Core.ValueObjects
+  spec.csharp:
+  - uid: Resultify
+    name: Resultify
+    href: Resultify.html
+  - name: .
+  - uid: Resultify.Core
+    name: Core
+    href: Resultify.Core.html
+  - name: .
+  - uid: Resultify.Core.ValueObjects
+    name: ValueObjects
+    href: Resultify.Core.ValueObjects.html
+  spec.vb:
+  - uid: Resultify
+    name: Resultify
+    href: Resultify.html
+  - name: .
+  - uid: Resultify.Core
+    name: Core
+    href: Resultify.Core.html
+  - name: .
+  - uid: Resultify.Core.ValueObjects
+    name: ValueObjects
+    href: Resultify.Core.ValueObjects.html
+- uid: Resultify.Core.Models.Result`1.Match*
+  commentId: Overload:Resultify.Core.Models.Result`1.Match
+  href: Resultify.Core.Models.Result-1.html#Resultify_Core_Models_Result_1_Match_System_Action__0__System_Action_Resultify_Core_ValueObjects_Error__
+  name: Match
+  nameWithType: Result<T>.Match
+  fullName: Resultify.Core.Models.Result<T>.Match
+  nameWithType.vb: Result(Of T).Match
+  fullName.vb: Resultify.Core.Models.Result(Of T).Match
+- uid: System.Action{{T}}
+  commentId: T:System.Action{`0}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Action{Resultify.Core.ValueObjects.Error}
+  commentId: T:System.Action{Resultify.Core.ValueObjects.Error}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<Error>
+  nameWithType: Action<Error>
+  fullName: System.Action<Resultify.Core.ValueObjects.Error>
+  nameWithType.vb: Action(Of Error)
+  fullName.vb: System.Action(Of Resultify.Core.ValueObjects.Error)
+  name.vb: Action(Of Error)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: Resultify.Core.ValueObjects.Error
+    name: Error
+    href: Resultify.Core.ValueObjects.Error.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Resultify.Core.ValueObjects.Error
+    name: Error
+    href: Resultify.Core.ValueObjects.Error.html
+  - name: )
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Func{{T},{TResult}}
+  commentId: T:System.Func{`0,``0}
+  parent: System
+  definition: System.Func`2
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<T, TResult>
+  nameWithType: Func<T, TResult>
+  fullName: System.Func<T, TResult>
+  nameWithType.vb: Func(Of T, TResult)
+  fullName.vb: System.Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Func{Resultify.Core.ValueObjects.Error,{TResult}}
+  commentId: T:System.Func{Resultify.Core.ValueObjects.Error,``0}
+  parent: System
+  definition: System.Func`2
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<Error, TResult>
+  nameWithType: Func<Error, TResult>
+  fullName: System.Func<Resultify.Core.ValueObjects.Error, TResult>
+  nameWithType.vb: Func(Of Error, TResult)
+  fullName.vb: System.Func(Of Resultify.Core.ValueObjects.Error, TResult)
+  name.vb: Func(Of Error, TResult)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: Resultify.Core.ValueObjects.Error
+    name: Error
+    href: Resultify.Core.ValueObjects.Error.html
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Resultify.Core.ValueObjects.Error
+    name: Error
+    href: Resultify.Core.ValueObjects.Error.html
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: '{TResult}'
+  commentId: '!:TResult'
+  definition: TResult
+  name: TResult
+  nameWithType: TResult
+  fullName: TResult
+- uid: System.Func`2
+  commentId: T:System.Func`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<T, TResult>
+  nameWithType: Func<T, TResult>
+  fullName: System.Func<T, TResult>
+  nameWithType.vb: Func(Of T, TResult)
+  fullName.vb: System.Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: TResult
+  name: TResult
+  nameWithType: TResult
+  fullName: TResult
+- uid: Resultify.Core.Models.Result`1.Map*
+  commentId: Overload:Resultify.Core.Models.Result`1.Map
+  href: Resultify.Core.Models.Result-1.html#Resultify_Core_Models_Result_1_Map__1_System_Func__0___0__
+  name: Map
+  nameWithType: Result<T>.Map
+  fullName: Resultify.Core.Models.Result<T>.Map
+  nameWithType.vb: Result(Of T).Map
+  fullName.vb: Resultify.Core.Models.Result(Of T).Map
+- uid: Resultify.Core.Models.Result{{TResult}}
+  commentId: T:Resultify.Core.Models.Result{``0}
+  parent: Resultify.Core.Models
+  definition: Resultify.Core.Models.Result`1
+  href: Resultify.Core.Models.Result-1.html
+  name: Result<TResult>
+  nameWithType: Result<TResult>
+  fullName: Resultify.Core.Models.Result<TResult>
+  nameWithType.vb: Result(Of TResult)
+  fullName.vb: Resultify.Core.Models.Result(Of TResult)
+  name.vb: Result(Of TResult)
+  spec.csharp:
+  - uid: Resultify.Core.Models.Result`1
+    name: Result
+    href: Resultify.Core.Models.Result-1.html
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: Resultify.Core.Models.Result`1
+    name: Result
+    href: Resultify.Core.Models.Result-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: Resultify.Core.Models.Result`1.Bind*
+  commentId: Overload:Resultify.Core.Models.Result`1.Bind
+  href: Resultify.Core.Models.Result-1.html#Resultify_Core_Models_Result_1_Bind__1_System_Func__0_Resultify_Core_Models_Result___0___
+  name: Bind
+  nameWithType: Result<T>.Bind
+  fullName: Resultify.Core.Models.Result<T>.Bind
+  nameWithType.vb: Result(Of T).Bind
+  fullName.vb: Resultify.Core.Models.Result(Of T).Bind
+- uid: System.Func{{T},Resultify.Core.Models.Result{{TResult}}}
+  commentId: T:System.Func{`0,Resultify.Core.Models.Result{``0}}
+  parent: System
+  definition: System.Func`2
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<T, Result<TResult>>
+  nameWithType: Func<T, Result<TResult>>
+  fullName: System.Func<T, Resultify.Core.Models.Result<TResult>>
+  nameWithType.vb: Func(Of T, Result(Of TResult))
+  fullName.vb: System.Func(Of T, Resultify.Core.Models.Result(Of TResult))
+  name.vb: Func(Of T, Result(Of TResult))
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: Resultify.Core.Models.Result`1
+    name: Result
+    href: Resultify.Core.Models.Result-1.html
+  - name: <
+  - name: TResult
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: Resultify.Core.Models.Result`1
+    name: Result
+    href: Resultify.Core.Models.Result-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+  - name: )
+- uid: Resultify.Core.Models.Result`1.Try*
+  commentId: Overload:Resultify.Core.Models.Result`1.Try
+  href: Resultify.Core.Models.Result-1.html#Resultify_Core_Models_Result_1_Try_System_Func__0__
+  name: Try
+  nameWithType: Result<T>.Try
+  fullName: Resultify.Core.Models.Result<T>.Try
+  nameWithType.vb: Result(Of T).Try
+  fullName.vb: Resultify.Core.Models.Result(Of T).Try
+- uid: System.Func{{T}}
+  commentId: T:System.Func{``0}
+  parent: System
+  definition: System.Func`1
+  href: https://learn.microsoft.com/dotnet/api/system.func-1
+  name: Func<T>
+  nameWithType: Func<T>
+  fullName: System.Func<T>
+  nameWithType.vb: Func(Of T)
+  fullName.vb: System.Func(Of T)
+  name.vb: Func(Of T)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Func`1
+  commentId: T:System.Func`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-1
+  name: Func<TResult>
+  nameWithType: Func<TResult>
+  fullName: System.Func<TResult>
+  nameWithType.vb: Func(Of TResult)
+  fullName.vb: System.Func(Of TResult)
+  name.vb: Func(Of TResult)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )

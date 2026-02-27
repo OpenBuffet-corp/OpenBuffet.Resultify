@@ -1,0 +1,54 @@
+### YamlMime:ManagedReference
+items:
+- uid: Resultify.Core.ValueObjects
+  commentId: N:Resultify.Core.ValueObjects
+  id: Resultify.Core.ValueObjects
+  children:
+  - Resultify.Core.ValueObjects.Error
+  langs:
+  - csharp
+  - vb
+  name: Resultify.Core.ValueObjects
+  nameWithType: Resultify.Core.ValueObjects
+  fullName: Resultify.Core.ValueObjects
+  type: Namespace
+  assemblies:
+  - Resultify.Core
+references:
+- uid: Resultify.Core.ValueObjects.Error
+  commentId: T:Resultify.Core.ValueObjects.Error
+  parent: Resultify.Core.ValueObjects
+  href: Resultify.Core.ValueObjects.Error.html
+  name: Error
+  nameWithType: Error
+  fullName: Resultify.Core.ValueObjects.Error
+- uid: Resultify.Core.ValueObjects
+  commentId: N:Resultify.Core.ValueObjects
+  href: Resultify.html
+  name: Resultify.Core.ValueObjects
+  nameWithType: Resultify.Core.ValueObjects
+  fullName: Resultify.Core.ValueObjects
+  spec.csharp:
+  - uid: Resultify
+    name: Resultify
+    href: Resultify.html
+  - name: .
+  - uid: Resultify.Core
+    name: Core
+    href: Resultify.Core.html
+  - name: .
+  - uid: Resultify.Core.ValueObjects
+    name: ValueObjects
+    href: Resultify.Core.ValueObjects.html
+  spec.vb:
+  - uid: Resultify
+    name: Resultify
+    href: Resultify.html
+  - name: .
+  - uid: Resultify.Core
+    name: Core
+    href: Resultify.Core.html
+  - name: .
+  - uid: Resultify.Core.ValueObjects
+    name: ValueObjects
+    href: Resultify.Core.ValueObjects.html

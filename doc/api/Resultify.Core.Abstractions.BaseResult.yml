@@ -1,0 +1,509 @@
+### YamlMime:ManagedReference
+items:
+- uid: Resultify.Core.Abstractions.BaseResult
+  commentId: T:Resultify.Core.Abstractions.BaseResult
+  id: BaseResult
+  parent: Resultify.Core.Abstractions
+  children:
+  - Resultify.Core.Abstractions.BaseResult.#ctor(System.Boolean,Resultify.Core.ValueObjects.Error)
+  - Resultify.Core.Abstractions.BaseResult.Error
+  - Resultify.Core.Abstractions.BaseResult.IsFailure
+  - Resultify.Core.Abstractions.BaseResult.IsSuccess
+  langs:
+  - csharp
+  - vb
+  name: BaseResult
+  nameWithType: BaseResult
+  fullName: Resultify.Core.Abstractions.BaseResult
+  type: Class
+  source:
+    remote:
+      path: src/Resultify.Core/Abstractions/BaseResult.cs
+      branch: main
+      repo: https://github.com/OpenBuffet-corp/OpenBuffet.Resultify.git
+    id: BaseResult
+    path: ../src/Resultify.Core/Abstractions/BaseResult.cs
+    startLine: 5
+  assemblies:
+  - Resultify.Core
+  namespace: Resultify.Core.Abstractions
+  syntax:
+    content: public abstract class BaseResult
+    content.vb: Public MustInherit Class BaseResult
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Resultify.Core.Models.Result
+  - Resultify.Core.Models.Result`1
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Resultify.Core.Abstractions.BaseResult.IsSuccess
+  commentId: P:Resultify.Core.Abstractions.BaseResult.IsSuccess
+  id: IsSuccess
+  parent: Resultify.Core.Abstractions.BaseResult
+  langs:
+  - csharp
+  - vb
+  name: IsSuccess
+  nameWithType: BaseResult.IsSuccess
+  fullName: Resultify.Core.Abstractions.BaseResult.IsSuccess
+  type: Property
+  source:
+    remote:
+      path: src/Resultify.Core/Abstractions/BaseResult.cs
+      branch: main
+      repo: https://github.com/OpenBuffet-corp/OpenBuffet.Resultify.git
+    id: IsSuccess
+    path: ../src/Resultify.Core/Abstractions/BaseResult.cs
+    startLine: 7
+  assemblies:
+  - Resultify.Core
+  namespace: Resultify.Core.Abstractions
+  syntax:
+    content: public bool IsSuccess { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsSuccess As Boolean
+  overload: Resultify.Core.Abstractions.BaseResult.IsSuccess*
+- uid: Resultify.Core.Abstractions.BaseResult.IsFailure
+  commentId: P:Resultify.Core.Abstractions.BaseResult.IsFailure
+  id: IsFailure
+  parent: Resultify.Core.Abstractions.BaseResult
+  langs:
+  - csharp
+  - vb
+  name: IsFailure
+  nameWithType: BaseResult.IsFailure
+  fullName: Resultify.Core.Abstractions.BaseResult.IsFailure
+  type: Property
+  source:
+    remote:
+      path: src/Resultify.Core/Abstractions/BaseResult.cs
+      branch: main
+      repo: https://github.com/OpenBuffet-corp/OpenBuffet.Resultify.git
+    id: IsFailure
+    path: ../src/Resultify.Core/Abstractions/BaseResult.cs
+    startLine: 8
+  assemblies:
+  - Resultify.Core
+  namespace: Resultify.Core.Abstractions
+  syntax:
+    content: public bool IsFailure { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsFailure As Boolean
+  overload: Resultify.Core.Abstractions.BaseResult.IsFailure*
+- uid: Resultify.Core.Abstractions.BaseResult.Error
+  commentId: P:Resultify.Core.Abstractions.BaseResult.Error
+  id: Error
+  parent: Resultify.Core.Abstractions.BaseResult
+  langs:
+  - csharp
+  - vb
+  name: Error
+  nameWithType: BaseResult.Error
+  fullName: Resultify.Core.Abstractions.BaseResult.Error
+  type: Property
+  source:
+    remote:
+      path: src/Resultify.Core/Abstractions/BaseResult.cs
+      branch: main
+      repo: https://github.com/OpenBuffet-corp/OpenBuffet.Resultify.git
+    id: Error
+    path: ../src/Resultify.Core/Abstractions/BaseResult.cs
+    startLine: 9
+  assemblies:
+  - Resultify.Core
+  namespace: Resultify.Core.Abstractions
+  syntax:
+    content: public Error Error { get; }
+    parameters: []
+    return:
+      type: Resultify.Core.ValueObjects.Error
+    content.vb: Public ReadOnly Property [Error] As [Error]
+  overload: Resultify.Core.Abstractions.BaseResult.Error*
+- uid: Resultify.Core.Abstractions.BaseResult.#ctor(System.Boolean,Resultify.Core.ValueObjects.Error)
+  commentId: M:Resultify.Core.Abstractions.BaseResult.#ctor(System.Boolean,Resultify.Core.ValueObjects.Error)
+  id: '#ctor(System.Boolean,Resultify.Core.ValueObjects.Error)'
+  parent: Resultify.Core.Abstractions.BaseResult
+  langs:
+  - csharp
+  - vb
+  name: BaseResult(bool, Error)
+  nameWithType: BaseResult.BaseResult(bool, Error)
+  fullName: Resultify.Core.Abstractions.BaseResult.BaseResult(bool, Resultify.Core.ValueObjects.Error)
+  type: Constructor
+  source:
+    remote:
+      path: src/Resultify.Core/Abstractions/BaseResult.cs
+      branch: main
+      repo: https://github.com/OpenBuffet-corp/OpenBuffet.Resultify.git
+    id: .ctor
+    path: ../src/Resultify.Core/Abstractions/BaseResult.cs
+    startLine: 11
+  assemblies:
+  - Resultify.Core
+  namespace: Resultify.Core.Abstractions
+  syntax:
+    content: protected BaseResult(bool isSuccess, Error error)
+    parameters:
+    - id: isSuccess
+      type: System.Boolean
+    - id: error
+      type: Resultify.Core.ValueObjects.Error
+    content.vb: Protected Sub New(isSuccess As Boolean, [error] As [Error])
+  overload: Resultify.Core.Abstractions.BaseResult.#ctor*
+  nameWithType.vb: BaseResult.New(Boolean, Error)
+  fullName.vb: Resultify.Core.Abstractions.BaseResult.New(Boolean, Resultify.Core.ValueObjects.Error)
+  name.vb: New(Boolean, Error)
+references:
+- uid: Resultify.Core.Abstractions
+  commentId: N:Resultify.Core.Abstractions
+  href: Resultify.html
+  name: Resultify.Core.Abstractions
+  nameWithType: Resultify.Core.Abstractions
+  fullName: Resultify.Core.Abstractions
+  spec.csharp:
+  - uid: Resultify
+    name: Resultify
+    href: Resultify.html
+  - name: .
+  - uid: Resultify.Core
+    name: Core
+    href: Resultify.Core.html
+  - name: .
+  - uid: Resultify.Core.Abstractions
+    name: Abstractions
+    href: Resultify.Core.Abstractions.html
+  spec.vb:
+  - uid: Resultify
+    name: Resultify
+    href: Resultify.html
+  - name: .
+  - uid: Resultify.Core
+    name: Core
+    href: Resultify.Core.html
+  - name: .
+  - uid: Resultify.Core.Abstractions
+    name: Abstractions
+    href: Resultify.Core.Abstractions.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Resultify.Core.Abstractions.BaseResult.IsSuccess*
+  commentId: Overload:Resultify.Core.Abstractions.BaseResult.IsSuccess
+  href: Resultify.Core.Abstractions.BaseResult.html#Resultify_Core_Abstractions_BaseResult_IsSuccess
+  name: IsSuccess
+  nameWithType: BaseResult.IsSuccess
+  fullName: Resultify.Core.Abstractions.BaseResult.IsSuccess
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Resultify.Core.Abstractions.BaseResult.IsFailure*
+  commentId: Overload:Resultify.Core.Abstractions.BaseResult.IsFailure
+  href: Resultify.Core.Abstractions.BaseResult.html#Resultify_Core_Abstractions_BaseResult_IsFailure
+  name: IsFailure
+  nameWithType: BaseResult.IsFailure
+  fullName: Resultify.Core.Abstractions.BaseResult.IsFailure
+- uid: Resultify.Core.Abstractions.BaseResult.Error*
+  commentId: Overload:Resultify.Core.Abstractions.BaseResult.Error
+  href: Resultify.Core.Abstractions.BaseResult.html#Resultify_Core_Abstractions_BaseResult_Error
+  name: Error
+  nameWithType: BaseResult.Error
+  fullName: Resultify.Core.Abstractions.BaseResult.Error
+- uid: Resultify.Core.ValueObjects.Error
+  commentId: T:Resultify.Core.ValueObjects.Error
+  parent: Resultify.Core.ValueObjects
+  href: Resultify.Core.ValueObjects.Error.html
+  name: Error
+  nameWithType: Error
+  fullName: Resultify.Core.ValueObjects.Error
+- uid: Resultify.Core.ValueObjects
+  commentId: N:Resultify.Core.ValueObjects
+  href: Resultify.html
+  name: Resultify.Core.ValueObjects
+  nameWithType: Resultify.Core.ValueObjects
+  fullName: Resultify.Core.ValueObjects
+  spec.csharp:
+  - uid: Resultify
+    name: Resultify
+    href: Resultify.html
+  - name: .
+  - uid: Resultify.Core
+    name: Core
+    href: Resultify.Core.html
+  - name: .
+  - uid: Resultify.Core.ValueObjects
+    name: ValueObjects
+    href: Resultify.Core.ValueObjects.html
+  spec.vb:
+  - uid: Resultify
+    name: Resultify
+    href: Resultify.html
+  - name: .
+  - uid: Resultify.Core
+    name: Core
+    href: Resultify.Core.html
+  - name: .
+  - uid: Resultify.Core.ValueObjects
+    name: ValueObjects
+    href: Resultify.Core.ValueObjects.html
+- uid: Resultify.Core.Abstractions.BaseResult.#ctor*
+  commentId: Overload:Resultify.Core.Abstractions.BaseResult.#ctor
+  href: Resultify.Core.Abstractions.BaseResult.html#Resultify_Core_Abstractions_BaseResult__ctor_System_Boolean_Resultify_Core_ValueObjects_Error_
+  name: BaseResult
+  nameWithType: BaseResult.BaseResult
+  fullName: Resultify.Core.Abstractions.BaseResult.BaseResult
+  nameWithType.vb: BaseResult.New
+  fullName.vb: Resultify.Core.Abstractions.BaseResult.New
+  name.vb: New

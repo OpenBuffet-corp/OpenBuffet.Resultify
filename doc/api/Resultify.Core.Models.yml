@@ -1,0 +1,81 @@
+### YamlMime:ManagedReference
+items:
+- uid: Resultify.Core.Models
+  commentId: N:Resultify.Core.Models
+  id: Resultify.Core.Models
+  children:
+  - Resultify.Core.Models.Result
+  - Resultify.Core.Models.Result`1
+  langs:
+  - csharp
+  - vb
+  name: Resultify.Core.Models
+  nameWithType: Resultify.Core.Models
+  fullName: Resultify.Core.Models
+  type: Namespace
+  assemblies:
+  - Resultify.Core
+references:
+- uid: Resultify.Core.Models.Result
+  commentId: T:Resultify.Core.Models.Result
+  parent: Resultify.Core.Models
+  href: Resultify.Core.Models.Result.html
+  name: Result
+  nameWithType: Result
+  fullName: Resultify.Core.Models.Result
+- uid: Resultify.Core.Models.Result`1
+  commentId: T:Resultify.Core.Models.Result`1
+  parent: Resultify.Core.Models
+  href: Resultify.Core.Models.Result-1.html
+  name: Result<T>
+  nameWithType: Result<T>
+  fullName: Resultify.Core.Models.Result<T>
+  nameWithType.vb: Result(Of T)
+  fullName.vb: Resultify.Core.Models.Result(Of T)
+  name.vb: Result(Of T)
+  spec.csharp:
+  - uid: Resultify.Core.Models.Result`1
+    name: Result
+    href: Resultify.Core.Models.Result-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Resultify.Core.Models.Result`1
+    name: Result
+    href: Resultify.Core.Models.Result-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Resultify.Core.Models
+  commentId: N:Resultify.Core.Models
+  href: Resultify.html
+  name: Resultify.Core.Models
+  nameWithType: Resultify.Core.Models
+  fullName: Resultify.Core.Models
+  spec.csharp:
+  - uid: Resultify
+    name: Resultify
+    href: Resultify.html
+  - name: .
+  - uid: Resultify.Core
+    name: Core
+    href: Resultify.Core.html
+  - name: .
+  - uid: Resultify.Core.Models
+    name: Models
+    href: Resultify.Core.Models.html
+  spec.vb:
+  - uid: Resultify
+    name: Resultify
+    href: Resultify.html
+  - name: .
+  - uid: Resultify.Core
+    name: Core
+    href: Resultify.Core.html
+  - name: .
+  - uid: Resultify.Core.Models
+    name: Models
+    href: Resultify.Core.Models.html

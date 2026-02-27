@@ -1,0 +1,403 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Resultify.Core.Abstractions
+  name: Resultify.Core.Abstractions
+  href: api/Resultify.Core.Abstractions.html
+  commentId: N:Resultify.Core.Abstractions
+  fullName: Resultify.Core.Abstractions
+  nameWithType: Resultify.Core.Abstractions
+- uid: Resultify.Core.Abstractions.BaseResult
+  name: BaseResult
+  href: api/Resultify.Core.Abstractions.BaseResult.html
+  commentId: T:Resultify.Core.Abstractions.BaseResult
+  fullName: Resultify.Core.Abstractions.BaseResult
+  nameWithType: BaseResult
+- uid: Resultify.Core.Abstractions.BaseResult.#ctor(System.Boolean,Resultify.Core.ValueObjects.Error)
+  name: BaseResult(bool, Error)
+  href: api/Resultify.Core.Abstractions.BaseResult.html#Resultify_Core_Abstractions_BaseResult__ctor_System_Boolean_Resultify_Core_ValueObjects_Error_
+  commentId: M:Resultify.Core.Abstractions.BaseResult.#ctor(System.Boolean,Resultify.Core.ValueObjects.Error)
+  name.vb: New(Boolean, Error)
+  fullName: Resultify.Core.Abstractions.BaseResult.BaseResult(bool, Resultify.Core.ValueObjects.Error)
+  fullName.vb: Resultify.Core.Abstractions.BaseResult.New(Boolean, Resultify.Core.ValueObjects.Error)
+  nameWithType: BaseResult.BaseResult(bool, Error)
+  nameWithType.vb: BaseResult.New(Boolean, Error)
+- uid: Resultify.Core.Abstractions.BaseResult.#ctor*
+  name: BaseResult
+  href: api/Resultify.Core.Abstractions.BaseResult.html#Resultify_Core_Abstractions_BaseResult__ctor_
+  commentId: Overload:Resultify.Core.Abstractions.BaseResult.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Resultify.Core.Abstractions.BaseResult.BaseResult
+  fullName.vb: Resultify.Core.Abstractions.BaseResult.New
+  nameWithType: BaseResult.BaseResult
+  nameWithType.vb: BaseResult.New
+- uid: Resultify.Core.Abstractions.BaseResult.Error
+  name: Error
+  href: api/Resultify.Core.Abstractions.BaseResult.html#Resultify_Core_Abstractions_BaseResult_Error
+  commentId: P:Resultify.Core.Abstractions.BaseResult.Error
+  fullName: Resultify.Core.Abstractions.BaseResult.Error
+  nameWithType: BaseResult.Error
+- uid: Resultify.Core.Abstractions.BaseResult.Error*
+  name: Error
+  href: api/Resultify.Core.Abstractions.BaseResult.html#Resultify_Core_Abstractions_BaseResult_Error_
+  commentId: Overload:Resultify.Core.Abstractions.BaseResult.Error
+  isSpec: "True"
+  fullName: Resultify.Core.Abstractions.BaseResult.Error
+  nameWithType: BaseResult.Error
+- uid: Resultify.Core.Abstractions.BaseResult.IsFailure
+  name: IsFailure
+  href: api/Resultify.Core.Abstractions.BaseResult.html#Resultify_Core_Abstractions_BaseResult_IsFailure
+  commentId: P:Resultify.Core.Abstractions.BaseResult.IsFailure
+  fullName: Resultify.Core.Abstractions.BaseResult.IsFailure
+  nameWithType: BaseResult.IsFailure
+- uid: Resultify.Core.Abstractions.BaseResult.IsFailure*
+  name: IsFailure
+  href: api/Resultify.Core.Abstractions.BaseResult.html#Resultify_Core_Abstractions_BaseResult_IsFailure_
+  commentId: Overload:Resultify.Core.Abstractions.BaseResult.IsFailure
+  isSpec: "True"
+  fullName: Resultify.Core.Abstractions.BaseResult.IsFailure
+  nameWithType: BaseResult.IsFailure
+- uid: Resultify.Core.Abstractions.BaseResult.IsSuccess
+  name: IsSuccess
+  href: api/Resultify.Core.Abstractions.BaseResult.html#Resultify_Core_Abstractions_BaseResult_IsSuccess
+  commentId: P:Resultify.Core.Abstractions.BaseResult.IsSuccess
+  fullName: Resultify.Core.Abstractions.BaseResult.IsSuccess
+  nameWithType: BaseResult.IsSuccess
+- uid: Resultify.Core.Abstractions.BaseResult.IsSuccess*
+  name: IsSuccess
+  href: api/Resultify.Core.Abstractions.BaseResult.html#Resultify_Core_Abstractions_BaseResult_IsSuccess_
+  commentId: Overload:Resultify.Core.Abstractions.BaseResult.IsSuccess
+  isSpec: "True"
+  fullName: Resultify.Core.Abstractions.BaseResult.IsSuccess
+  nameWithType: BaseResult.IsSuccess
+- uid: Resultify.Core.Models
+  name: Resultify.Core.Models
+  href: api/Resultify.Core.Models.html
+  commentId: N:Resultify.Core.Models
+  fullName: Resultify.Core.Models
+  nameWithType: Resultify.Core.Models
+- uid: Resultify.Core.Models.Result
+  name: Result
+  href: api/Resultify.Core.Models.Result.html
+  commentId: T:Resultify.Core.Models.Result
+  fullName: Resultify.Core.Models.Result
+  nameWithType: Result
+- uid: Resultify.Core.Models.Result.Bind(System.Func{Resultify.Core.Models.Result})
+  name: Bind(Func<Result>)
+  href: api/Resultify.Core.Models.Result.html#Resultify_Core_Models_Result_Bind_System_Func_Resultify_Core_Models_Result__
+  commentId: M:Resultify.Core.Models.Result.Bind(System.Func{Resultify.Core.Models.Result})
+  name.vb: Bind(Func(Of Result))
+  fullName: Resultify.Core.Models.Result.Bind(System.Func<Resultify.Core.Models.Result>)
+  fullName.vb: Resultify.Core.Models.Result.Bind(System.Func(Of Resultify.Core.Models.Result))
+  nameWithType: Result.Bind(Func<Result>)
+  nameWithType.vb: Result.Bind(Func(Of Result))
+- uid: Resultify.Core.Models.Result.Bind*
+  name: Bind
+  href: api/Resultify.Core.Models.Result.html#Resultify_Core_Models_Result_Bind_
+  commentId: Overload:Resultify.Core.Models.Result.Bind
+  isSpec: "True"
+  fullName: Resultify.Core.Models.Result.Bind
+  nameWithType: Result.Bind
+- uid: Resultify.Core.Models.Result.Failure(Resultify.Core.ValueObjects.Error)
+  name: Failure(Error)
+  href: api/Resultify.Core.Models.Result.html#Resultify_Core_Models_Result_Failure_Resultify_Core_ValueObjects_Error_
+  commentId: M:Resultify.Core.Models.Result.Failure(Resultify.Core.ValueObjects.Error)
+  fullName: Resultify.Core.Models.Result.Failure(Resultify.Core.ValueObjects.Error)
+  nameWithType: Result.Failure(Error)
+- uid: Resultify.Core.Models.Result.Failure*
+  name: Failure
+  href: api/Resultify.Core.Models.Result.html#Resultify_Core_Models_Result_Failure_
+  commentId: Overload:Resultify.Core.Models.Result.Failure
+  isSpec: "True"
+  fullName: Resultify.Core.Models.Result.Failure
+  nameWithType: Result.Failure
+- uid: Resultify.Core.Models.Result.Map(System.Func{Resultify.Core.Models.Result})
+  name: Map(Func<Result>)
+  href: api/Resultify.Core.Models.Result.html#Resultify_Core_Models_Result_Map_System_Func_Resultify_Core_Models_Result__
+  commentId: M:Resultify.Core.Models.Result.Map(System.Func{Resultify.Core.Models.Result})
+  name.vb: Map(Func(Of Result))
+  fullName: Resultify.Core.Models.Result.Map(System.Func<Resultify.Core.Models.Result>)
+  fullName.vb: Resultify.Core.Models.Result.Map(System.Func(Of Resultify.Core.Models.Result))
+  nameWithType: Result.Map(Func<Result>)
+  nameWithType.vb: Result.Map(Func(Of Result))
+- uid: Resultify.Core.Models.Result.Map*
+  name: Map
+  href: api/Resultify.Core.Models.Result.html#Resultify_Core_Models_Result_Map_
+  commentId: Overload:Resultify.Core.Models.Result.Map
+  isSpec: "True"
+  fullName: Resultify.Core.Models.Result.Map
+  nameWithType: Result.Map
+- uid: Resultify.Core.Models.Result.Map``1(System.Func{``0})
+  name: Map<T>(Func<T>)
+  href: api/Resultify.Core.Models.Result.html#Resultify_Core_Models_Result_Map__1_System_Func___0__
+  commentId: M:Resultify.Core.Models.Result.Map``1(System.Func{``0})
+  name.vb: Map(Of T)(Func(Of T))
+  fullName: Resultify.Core.Models.Result.Map<T>(System.Func<T>)
+  fullName.vb: Resultify.Core.Models.Result.Map(Of T)(System.Func(Of T))
+  nameWithType: Result.Map<T>(Func<T>)
+  nameWithType.vb: Result.Map(Of T)(Func(Of T))
+- uid: Resultify.Core.Models.Result.Match(System.Action,System.Action{Resultify.Core.ValueObjects.Error})
+  name: Match(Action, Action<Error>)
+  href: api/Resultify.Core.Models.Result.html#Resultify_Core_Models_Result_Match_System_Action_System_Action_Resultify_Core_ValueObjects_Error__
+  commentId: M:Resultify.Core.Models.Result.Match(System.Action,System.Action{Resultify.Core.ValueObjects.Error})
+  name.vb: Match(Action, Action(Of Error))
+  fullName: Resultify.Core.Models.Result.Match(System.Action, System.Action<Resultify.Core.ValueObjects.Error>)
+  fullName.vb: Resultify.Core.Models.Result.Match(System.Action, System.Action(Of Resultify.Core.ValueObjects.Error))
+  nameWithType: Result.Match(Action, Action<Error>)
+  nameWithType.vb: Result.Match(Action, Action(Of Error))
+- uid: Resultify.Core.Models.Result.Match*
+  name: Match
+  href: api/Resultify.Core.Models.Result.html#Resultify_Core_Models_Result_Match_
+  commentId: Overload:Resultify.Core.Models.Result.Match
+  isSpec: "True"
+  fullName: Resultify.Core.Models.Result.Match
+  nameWithType: Result.Match
+- uid: Resultify.Core.Models.Result.Match``1(System.Func{``0},System.Func{Resultify.Core.ValueObjects.Error,``0})
+  name: Match<TResult>(Func<TResult>, Func<Error, TResult>)
+  href: api/Resultify.Core.Models.Result.html#Resultify_Core_Models_Result_Match__1_System_Func___0__System_Func_Resultify_Core_ValueObjects_Error___0__
+  commentId: M:Resultify.Core.Models.Result.Match``1(System.Func{``0},System.Func{Resultify.Core.ValueObjects.Error,``0})
+  name.vb: Match(Of TResult)(Func(Of TResult), Func(Of Error, TResult))
+  fullName: Resultify.Core.Models.Result.Match<TResult>(System.Func<TResult>, System.Func<Resultify.Core.ValueObjects.Error, TResult>)
+  fullName.vb: Resultify.Core.Models.Result.Match(Of TResult)(System.Func(Of TResult), System.Func(Of Resultify.Core.ValueObjects.Error, TResult))
+  nameWithType: Result.Match<TResult>(Func<TResult>, Func<Error, TResult>)
+  nameWithType.vb: Result.Match(Of TResult)(Func(Of TResult), Func(Of Error, TResult))
+- uid: Resultify.Core.Models.Result.Success
+  name: Success()
+  href: api/Resultify.Core.Models.Result.html#Resultify_Core_Models_Result_Success
+  commentId: M:Resultify.Core.Models.Result.Success
+  fullName: Resultify.Core.Models.Result.Success()
+  nameWithType: Result.Success()
+- uid: Resultify.Core.Models.Result.Success*
+  name: Success
+  href: api/Resultify.Core.Models.Result.html#Resultify_Core_Models_Result_Success_
+  commentId: Overload:Resultify.Core.Models.Result.Success
+  isSpec: "True"
+  fullName: Resultify.Core.Models.Result.Success
+  nameWithType: Result.Success
+- uid: Resultify.Core.Models.Result.Try(System.Action)
+  name: Try(Action)
+  href: api/Resultify.Core.Models.Result.html#Resultify_Core_Models_Result_Try_System_Action_
+  commentId: M:Resultify.Core.Models.Result.Try(System.Action)
+  fullName: Resultify.Core.Models.Result.Try(System.Action)
+  nameWithType: Result.Try(Action)
+- uid: Resultify.Core.Models.Result.Try*
+  name: Try
+  href: api/Resultify.Core.Models.Result.html#Resultify_Core_Models_Result_Try_
+  commentId: Overload:Resultify.Core.Models.Result.Try
+  isSpec: "True"
+  fullName: Resultify.Core.Models.Result.Try
+  nameWithType: Result.Try
+- uid: Resultify.Core.Models.Result`1
+  name: Result<T>
+  href: api/Resultify.Core.Models.Result-1.html
+  commentId: T:Resultify.Core.Models.Result`1
+  name.vb: Result(Of T)
+  fullName: Resultify.Core.Models.Result<T>
+  fullName.vb: Resultify.Core.Models.Result(Of T)
+  nameWithType: Result<T>
+  nameWithType.vb: Result(Of T)
+- uid: Resultify.Core.Models.Result`1.Bind*
+  name: Bind
+  href: api/Resultify.Core.Models.Result-1.html#Resultify_Core_Models_Result_1_Bind_
+  commentId: Overload:Resultify.Core.Models.Result`1.Bind
+  isSpec: "True"
+  fullName: Resultify.Core.Models.Result<T>.Bind
+  fullName.vb: Resultify.Core.Models.Result(Of T).Bind
+  nameWithType: Result<T>.Bind
+  nameWithType.vb: Result(Of T).Bind
+- uid: Resultify.Core.Models.Result`1.Bind``1(System.Func{`0,Resultify.Core.Models.Result{``0}})
+  name: Bind<TResult>(Func<T?, Result<TResult>>)
+  href: api/Resultify.Core.Models.Result-1.html#Resultify_Core_Models_Result_1_Bind__1_System_Func__0_Resultify_Core_Models_Result___0___
+  commentId: M:Resultify.Core.Models.Result`1.Bind``1(System.Func{`0,Resultify.Core.Models.Result{``0}})
+  name.vb: Bind(Of TResult)(Func(Of T, Result(Of TResult)))
+  fullName: Resultify.Core.Models.Result<T>.Bind<TResult>(System.Func<T?, Resultify.Core.Models.Result<TResult>>)
+  fullName.vb: Resultify.Core.Models.Result(Of T).Bind(Of TResult)(System.Func(Of T, Resultify.Core.Models.Result(Of TResult)))
+  nameWithType: Result<T>.Bind<TResult>(Func<T?, Result<TResult>>)
+  nameWithType.vb: Result(Of T).Bind(Of TResult)(Func(Of T, Result(Of TResult)))
+- uid: Resultify.Core.Models.Result`1.Failure(Resultify.Core.ValueObjects.Error)
+  name: Failure(Error)
+  href: api/Resultify.Core.Models.Result-1.html#Resultify_Core_Models_Result_1_Failure_Resultify_Core_ValueObjects_Error_
+  commentId: M:Resultify.Core.Models.Result`1.Failure(Resultify.Core.ValueObjects.Error)
+  fullName: Resultify.Core.Models.Result<T>.Failure(Resultify.Core.ValueObjects.Error)
+  fullName.vb: Resultify.Core.Models.Result(Of T).Failure(Resultify.Core.ValueObjects.Error)
+  nameWithType: Result<T>.Failure(Error)
+  nameWithType.vb: Result(Of T).Failure(Error)
+- uid: Resultify.Core.Models.Result`1.Failure*
+  name: Failure
+  href: api/Resultify.Core.Models.Result-1.html#Resultify_Core_Models_Result_1_Failure_
+  commentId: Overload:Resultify.Core.Models.Result`1.Failure
+  isSpec: "True"
+  fullName: Resultify.Core.Models.Result<T>.Failure
+  fullName.vb: Resultify.Core.Models.Result(Of T).Failure
+  nameWithType: Result<T>.Failure
+  nameWithType.vb: Result(Of T).Failure
+- uid: Resultify.Core.Models.Result`1.Map(System.Action{`0})
+  name: Map(Action<T?>)
+  href: api/Resultify.Core.Models.Result-1.html#Resultify_Core_Models_Result_1_Map_System_Action__0__
+  commentId: M:Resultify.Core.Models.Result`1.Map(System.Action{`0})
+  name.vb: Map(Action(Of T))
+  fullName: Resultify.Core.Models.Result<T>.Map(System.Action<T?>)
+  fullName.vb: Resultify.Core.Models.Result(Of T).Map(System.Action(Of T))
+  nameWithType: Result<T>.Map(Action<T?>)
+  nameWithType.vb: Result(Of T).Map(Action(Of T))
+- uid: Resultify.Core.Models.Result`1.Map*
+  name: Map
+  href: api/Resultify.Core.Models.Result-1.html#Resultify_Core_Models_Result_1_Map_
+  commentId: Overload:Resultify.Core.Models.Result`1.Map
+  isSpec: "True"
+  fullName: Resultify.Core.Models.Result<T>.Map
+  fullName.vb: Resultify.Core.Models.Result(Of T).Map
+  nameWithType: Result<T>.Map
+  nameWithType.vb: Result(Of T).Map
+- uid: Resultify.Core.Models.Result`1.Map``1(System.Func{`0,``0})
+  name: Map<TResult>(Func<T?, TResult>)
+  href: api/Resultify.Core.Models.Result-1.html#Resultify_Core_Models_Result_1_Map__1_System_Func__0___0__
+  commentId: M:Resultify.Core.Models.Result`1.Map``1(System.Func{`0,``0})
+  name.vb: Map(Of TResult)(Func(Of T, TResult))
+  fullName: Resultify.Core.Models.Result<T>.Map<TResult>(System.Func<T?, TResult>)
+  fullName.vb: Resultify.Core.Models.Result(Of T).Map(Of TResult)(System.Func(Of T, TResult))
+  nameWithType: Result<T>.Map<TResult>(Func<T?, TResult>)
+  nameWithType.vb: Result(Of T).Map(Of TResult)(Func(Of T, TResult))
+- uid: Resultify.Core.Models.Result`1.Match(System.Action{`0},System.Action{Resultify.Core.ValueObjects.Error})
+  name: Match(Action<T?>, Action<Error>)
+  href: api/Resultify.Core.Models.Result-1.html#Resultify_Core_Models_Result_1_Match_System_Action__0__System_Action_Resultify_Core_ValueObjects_Error__
+  commentId: M:Resultify.Core.Models.Result`1.Match(System.Action{`0},System.Action{Resultify.Core.ValueObjects.Error})
+  name.vb: Match(Action(Of T), Action(Of Error))
+  fullName: Resultify.Core.Models.Result<T>.Match(System.Action<T?>, System.Action<Resultify.Core.ValueObjects.Error>)
+  fullName.vb: Resultify.Core.Models.Result(Of T).Match(System.Action(Of T), System.Action(Of Resultify.Core.ValueObjects.Error))
+  nameWithType: Result<T>.Match(Action<T?>, Action<Error>)
+  nameWithType.vb: Result(Of T).Match(Action(Of T), Action(Of Error))
+- uid: Resultify.Core.Models.Result`1.Match*
+  name: Match
+  href: api/Resultify.Core.Models.Result-1.html#Resultify_Core_Models_Result_1_Match_
+  commentId: Overload:Resultify.Core.Models.Result`1.Match
+  isSpec: "True"
+  fullName: Resultify.Core.Models.Result<T>.Match
+  fullName.vb: Resultify.Core.Models.Result(Of T).Match
+  nameWithType: Result<T>.Match
+  nameWithType.vb: Result(Of T).Match
+- uid: Resultify.Core.Models.Result`1.Match``1(System.Func{`0,``0},System.Func{Resultify.Core.ValueObjects.Error,``0})
+  name: Match<TResult>(Func<T?, TResult>, Func<Error, TResult>)
+  href: api/Resultify.Core.Models.Result-1.html#Resultify_Core_Models_Result_1_Match__1_System_Func__0___0__System_Func_Resultify_Core_ValueObjects_Error___0__
+  commentId: M:Resultify.Core.Models.Result`1.Match``1(System.Func{`0,``0},System.Func{Resultify.Core.ValueObjects.Error,``0})
+  name.vb: Match(Of TResult)(Func(Of T, TResult), Func(Of Error, TResult))
+  fullName: Resultify.Core.Models.Result<T>.Match<TResult>(System.Func<T?, TResult>, System.Func<Resultify.Core.ValueObjects.Error, TResult>)
+  fullName.vb: Resultify.Core.Models.Result(Of T).Match(Of TResult)(System.Func(Of T, TResult), System.Func(Of Resultify.Core.ValueObjects.Error, TResult))
+  nameWithType: Result<T>.Match<TResult>(Func<T?, TResult>, Func<Error, TResult>)
+  nameWithType.vb: Result(Of T).Match(Of TResult)(Func(Of T, TResult), Func(Of Error, TResult))
+- uid: Resultify.Core.Models.Result`1.Success(`0)
+  name: Success(T)
+  href: api/Resultify.Core.Models.Result-1.html#Resultify_Core_Models_Result_1_Success__0_
+  commentId: M:Resultify.Core.Models.Result`1.Success(`0)
+  fullName: Resultify.Core.Models.Result<T>.Success(T)
+  fullName.vb: Resultify.Core.Models.Result(Of T).Success(T)
+  nameWithType: Result<T>.Success(T)
+  nameWithType.vb: Result(Of T).Success(T)
+- uid: Resultify.Core.Models.Result`1.Success*
+  name: Success
+  href: api/Resultify.Core.Models.Result-1.html#Resultify_Core_Models_Result_1_Success_
+  commentId: Overload:Resultify.Core.Models.Result`1.Success
+  isSpec: "True"
+  fullName: Resultify.Core.Models.Result<T>.Success
+  fullName.vb: Resultify.Core.Models.Result(Of T).Success
+  nameWithType: Result<T>.Success
+  nameWithType.vb: Result(Of T).Success
+- uid: Resultify.Core.Models.Result`1.Try(System.Func{`0})
+  name: Try(Func<T>)
+  href: api/Resultify.Core.Models.Result-1.html#Resultify_Core_Models_Result_1_Try_System_Func__0__
+  commentId: M:Resultify.Core.Models.Result`1.Try(System.Func{`0})
+  name.vb: Try(Func(Of T))
+  fullName: Resultify.Core.Models.Result<T>.Try(System.Func<T>)
+  fullName.vb: Resultify.Core.Models.Result(Of T).Try(System.Func(Of T))
+  nameWithType: Result<T>.Try(Func<T>)
+  nameWithType.vb: Result(Of T).Try(Func(Of T))
+- uid: Resultify.Core.Models.Result`1.Try*
+  name: Try
+  href: api/Resultify.Core.Models.Result-1.html#Resultify_Core_Models_Result_1_Try_
+  commentId: Overload:Resultify.Core.Models.Result`1.Try
+  isSpec: "True"
+  fullName: Resultify.Core.Models.Result<T>.Try
+  fullName.vb: Resultify.Core.Models.Result(Of T).Try
+  nameWithType: Result<T>.Try
+  nameWithType.vb: Result(Of T).Try
+- uid: Resultify.Core.Models.Result`1.Value
+  name: Value
+  href: api/Resultify.Core.Models.Result-1.html#Resultify_Core_Models_Result_1_Value
+  commentId: P:Resultify.Core.Models.Result`1.Value
+  fullName: Resultify.Core.Models.Result<T>.Value
+  fullName.vb: Resultify.Core.Models.Result(Of T).Value
+  nameWithType: Result<T>.Value
+  nameWithType.vb: Result(Of T).Value
+- uid: Resultify.Core.Models.Result`1.Value*
+  name: Value
+  href: api/Resultify.Core.Models.Result-1.html#Resultify_Core_Models_Result_1_Value_
+  commentId: Overload:Resultify.Core.Models.Result`1.Value
+  isSpec: "True"
+  fullName: Resultify.Core.Models.Result<T>.Value
+  fullName.vb: Resultify.Core.Models.Result(Of T).Value
+  nameWithType: Result<T>.Value
+  nameWithType.vb: Result(Of T).Value
+- uid: Resultify.Core.ValueObjects
+  name: Resultify.Core.ValueObjects
+  href: api/Resultify.Core.ValueObjects.html
+  commentId: N:Resultify.Core.ValueObjects
+  fullName: Resultify.Core.ValueObjects
+  nameWithType: Resultify.Core.ValueObjects
+- uid: Resultify.Core.ValueObjects.Error
+  name: Error
+  href: api/Resultify.Core.ValueObjects.Error.html
+  commentId: T:Resultify.Core.ValueObjects.Error
+  fullName: Resultify.Core.ValueObjects.Error
+  nameWithType: Error
+- uid: Resultify.Core.ValueObjects.Error.#ctor(System.String,System.String)
+  name: Error(string, string?)
+  href: api/Resultify.Core.ValueObjects.Error.html#Resultify_Core_ValueObjects_Error__ctor_System_String_System_String_
+  commentId: M:Resultify.Core.ValueObjects.Error.#ctor(System.String,System.String)
+  name.vb: New(String, String)
+  fullName: Resultify.Core.ValueObjects.Error.Error(string, string?)
+  fullName.vb: Resultify.Core.ValueObjects.Error.New(String, String)
+  nameWithType: Error.Error(string, string?)
+  nameWithType.vb: Error.New(String, String)
+- uid: Resultify.Core.ValueObjects.Error.#ctor*
+  name: Error
+  href: api/Resultify.Core.ValueObjects.Error.html#Resultify_Core_ValueObjects_Error__ctor_
+  commentId: Overload:Resultify.Core.ValueObjects.Error.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Resultify.Core.ValueObjects.Error.Error
+  fullName.vb: Resultify.Core.ValueObjects.Error.New
+  nameWithType: Error.Error
+  nameWithType.vb: Error.New
+- uid: Resultify.Core.ValueObjects.Error.Code
+  name: Code
+  href: api/Resultify.Core.ValueObjects.Error.html#Resultify_Core_ValueObjects_Error_Code
+  commentId: P:Resultify.Core.ValueObjects.Error.Code
+  fullName: Resultify.Core.ValueObjects.Error.Code
+  nameWithType: Error.Code
+- uid: Resultify.Core.ValueObjects.Error.Code*
+  name: Code
+  href: api/Resultify.Core.ValueObjects.Error.html#Resultify_Core_ValueObjects_Error_Code_
+  commentId: Overload:Resultify.Core.ValueObjects.Error.Code
+  isSpec: "True"
+  fullName: Resultify.Core.ValueObjects.Error.Code
+  nameWithType: Error.Code
+- uid: Resultify.Core.ValueObjects.Error.Description
+  name: Description
+  href: api/Resultify.Core.ValueObjects.Error.html#Resultify_Core_ValueObjects_Error_Description
+  commentId: P:Resultify.Core.ValueObjects.Error.Description
+  fullName: Resultify.Core.ValueObjects.Error.Description
+  nameWithType: Error.Description
+- uid: Resultify.Core.ValueObjects.Error.Description*
+  name: Description
+  href: api/Resultify.Core.ValueObjects.Error.html#Resultify_Core_ValueObjects_Error_Description_
+  commentId: Overload:Resultify.Core.ValueObjects.Error.Description
+  isSpec: "True"
+  fullName: Resultify.Core.ValueObjects.Error.Description
+  nameWithType: Error.Description
+- uid: Resultify.Core.ValueObjects.Error.None
+  name: None
+  href: api/Resultify.Core.ValueObjects.Error.html#Resultify_Core_ValueObjects_Error_None
+  commentId: F:Resultify.Core.ValueObjects.Error.None
+  fullName: Resultify.Core.ValueObjects.Error.None
+  nameWithType: Error.None

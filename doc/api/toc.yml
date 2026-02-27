@@ -1,0 +1,27 @@
+### YamlMime:TableOfContent
+items:
+- uid: Resultify.Core.Abstractions
+  name: Resultify.Core.Abstractions
+  type: Namespace
+  items:
+  - uid: Resultify.Core.Abstractions.BaseResult
+    name: BaseResult
+    type: Class
+- uid: Resultify.Core.Models
+  name: Resultify.Core.Models
+  type: Namespace
+  items:
+  - uid: Resultify.Core.Models.Result
+    name: Result
+    type: Class
+  - uid: Resultify.Core.Models.Result`1
+    name: Result<T>
+    type: Class
+- uid: Resultify.Core.ValueObjects
+  name: Resultify.Core.ValueObjects
+  type: Namespace
+  items:
+  - uid: Resultify.Core.ValueObjects.Error
+    name: Error
+    type: Class
+memberLayout: SamePage
